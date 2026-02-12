@@ -106,6 +106,11 @@ User queue_dequeue(Queue* queue) {
 }
 
 void queue_free(Queue* queue) {
+	//Ensure a double free does not occur
+	if (queue_isFreed(queue)) {
+		printf("ERROR: Queue has no allocated memory.\n");
+		return nullUser;
+	}
 	//Free all nodes
 	while (queue->head != NULL) queue_dequeue(queue);
 	//Free the queue and set to NULL to indicate it is freed

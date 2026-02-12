@@ -43,6 +43,12 @@ User generateUser() {
 	return createUser(level, faction, username);
 }
 
-void generateQueue(Queue* queue) {
-	
+int generateQueue(Queue* queue, unsigned int users) {
+	if (users == 0) {
+		printf("Number of users must be 1 or above.");
+		return -1;
+	}
+	for (int i = 0; i < users; i++)
+		queue_enqueue(queue, generateUser());
+	return 0;
 }
