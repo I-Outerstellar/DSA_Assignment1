@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include "User.h"
 
+//Structs
+
 /// <summary>
 /// A struct representing a node of a queue.
 /// </summary>
@@ -11,6 +13,10 @@ typedef struct Node Node;
 /// A struct representing a queue of users.
 /// </summary>
 typedef struct Queue Queue;
+
+
+
+//Functions
 
 /// <summary>
 /// Initializes a queue to be ready for use.
@@ -45,3 +51,10 @@ User queue_dequeue(Queue* queue);
 /// </summary>
 /// <param name="queue"></param>
 void queue_free(Queue* queue);
+
+/// <summary>
+/// Checks if a queue's memory is free.
+/// </summary>
+/// <param name="queue"></param>
+/// <returns>True if it is free, false if not.</returns>
+bool queue_isFreed(Queue* queue);
