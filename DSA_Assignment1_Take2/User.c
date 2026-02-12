@@ -1,6 +1,8 @@
 #include "User.h"
 #include <string.h>
 
+//User.h Functions
+
 User createUser(unsigned int level, Faction faction, char* username) {
 	User user;
 	
