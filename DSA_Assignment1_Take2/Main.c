@@ -30,13 +30,15 @@ int main(int argc, char* argv[]) {
 	Queue* q = queue_init();
 	unsigned int users = parseInt(argv[1]);
 
-	//Generate the queue, then dequeue all the users
+	//Generate the queue
 	generateQueue(q, users);
-
+	//Then dequeue all the users while printing them
 	while (queue_isEmpty(q) == false) {
 		User user = queue_dequeue(q);
 		printf("%10s | %02d - %s\n", user.username, user.level, factionToString(user.faction));
 	}
+
+	queue_free(q);
 	
 	return 0;
 }
