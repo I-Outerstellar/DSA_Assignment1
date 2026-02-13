@@ -66,7 +66,7 @@ User generateUser() {
 	char username[11];
 	for (int i = 0; i < 10; i++) {
 		int randomChance = random(1, 10);
-		if (randomChance == 1 && i > 3) { //Must be 3-10 characters
+		if (randomChance == 1 && i > 3) { //Must be 4-10 characters
 			username[i] = '\0';
 			break;
 		}
