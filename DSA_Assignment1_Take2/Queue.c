@@ -79,8 +79,10 @@ bool queue_enqueue(Queue* queue, User user) {
 	newNode->nextNode = NULL;
 	if (queue_isEmpty(queue)) //Make sure the head and tail exist
 		queue->head = queue->tail = newNode;
-	else 
+	else {
 		queue->tail->nextNode = newNode;
+		queue->tail = newNode;
+	}
 	return true;
 }
 
@@ -97,8 +99,8 @@ User queue_dequeue(Queue* queue) {
 	
 	//Remove and free the node and return the user
 	Node* temp = queue->head;
-	User save = temp->user;
-	queue->head = temp->nextNode;
+	User save = queue->head->user;
+	queue->head = queue->head->nextNode;
 	if (queue_isEmpty(queue)) 
 		queue->tail = NULL;
 	free(temp);

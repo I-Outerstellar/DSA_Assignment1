@@ -3,7 +3,6 @@
 #include <time.h>
 
 #include "Main.h"
-#include "Queue.h"
 
 //Helper Function
 
@@ -12,8 +11,8 @@
 /// </summary>
 /// <param name="string"></param>
 /// <returns>The integer form of the string, or 0 if it fails.</returns>
-int parseInt(const char* string) {
-	int buffer;
+unsigned int parseInt(const char* string) {
+	unsigned int buffer;
 	int success = sscanf_s(string, "%d", &buffer);
 	if (success) return buffer;
 	else return 0;
@@ -24,13 +23,19 @@ int parseInt(const char* string) {
 //Main Function
 
 int main(int argc, char* argv[]) {
-	Queue* q = queue_init();
+	//Seed randomness
+	srand(time(NULL));
 
-	generateQueue(q, parseInt(argv[1]));
+	//Create queue and get cmdline argument
+	Queue* q = queue_init();
+	unsigned int users = parseInt(argv[1]);
+
+	//Generate the queue, then dequeue all the users
+	generateQueue(q, users);
 
 	while (queue_isEmpty(q) == false) {
 		User user = queue_dequeue(q);
-		printf("%10s | %02d - %s", user.username, user.level, factionToString(user.faction));
+		printf("%10s | %02d - %s\n", user.username, user.level, factionToString(user.faction));
 	}
 	
 	return 0;
@@ -60,7 +65,7 @@ User generateUser() {
 	for (int i = 0; i < 10; i++) {
 		int randomChance = random(1, 10);
 		if (randomChance == 1 && i > 3) { //Must be 3-10 characters
-			username[i] = '\n';
+			username[i] = '\0';
 			break;
 		}
 		else switch (randomChance % 3) { //Arbitrary assoication
@@ -87,8 +92,8 @@ int generateQueue(Queue* queue, unsigned int users) {
 		return -1;
 	}
 	//Fill queue with random users and return 0
-	srand(time(NULL));
-	for (unsigned int i = 0; i < users; i++)
+	for (unsigned int i = 0; i < users; i++) {
 		queue_enqueue(queue, generateUser());
+	}
 	return 0;
 }
