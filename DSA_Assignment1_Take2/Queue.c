@@ -69,7 +69,7 @@ bool queue_enqueue(Queue* queue, User user) {
 		return false;
 	}
 	if (findUsername(queue, user.username)) {
-		printf("Username of given user is not unique.");
+		printf("Username of given user is not unique.\n");
 		return false;
 	}
 
@@ -91,7 +91,7 @@ User queue_dequeue(Queue* queue) {
 		return nullUser;
 	}
 	if (queue_isEmpty(queue)) {
-		printf("Queue has no users queued.");
+		printf("Queue has no users queued.\n");
 		return nullUser;
 	}
 	
@@ -100,7 +100,7 @@ User queue_dequeue(Queue* queue) {
 	User save = temp->user;
 	queue->head = temp->nextNode;
 	if (queue_isEmpty(queue)) 
-		queue->tail == NULL;
+		queue->tail = NULL;
 	free(temp);
 	return save;
 }
@@ -109,7 +109,7 @@ void queue_free(Queue* queue) {
 	//Ensure a double free does not occur
 	if (queue_isFreed(queue)) {
 		printf("ERROR: Queue has no allocated memory.\n");
-		return nullUser;
+		return;
 	}
 	//Free all nodes
 	while (queue->head != NULL) queue_dequeue(queue);

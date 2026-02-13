@@ -1,5 +1,6 @@
 #pragma once
 #include "User.h"
+#include "Queue.h"
 
 /// <summary>
 /// Generates a random number between min and max.

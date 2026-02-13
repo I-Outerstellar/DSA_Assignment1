@@ -5,10 +5,35 @@
 #include "Main.h"
 #include "Queue.h"
 
+//Helper Function
+
+/// <summary>
+/// Converts a string to an integer.
+/// </summary>
+/// <param name="string"></param>
+/// <returns>The integer form of the string, or 0 if it fails.</returns>
+int parseInt(const char* string) {
+	int buffer;
+	int success = sscanf_s(string, "%d", &buffer);
+	if (success) return buffer;
+	else return 0;
+}
+
+
+
 //Main Function
 
 int main(int argc, char* argv[]) {
+	Queue* q = queue_init();
 
+	generateQueue(q, parseInt(argv[1]));
+
+	while (queue_isEmpty(q) == false) {
+		User user = queue_dequeue(q);
+		printf("%10s | %02d - %s", user.username, user.level, factionToString(user.faction));
+	}
+	
+	return 0;
 }
 
 
@@ -18,8 +43,8 @@ int main(int argc, char* argv[]) {
 int random(int min, int max) {
 	//Perform early returns
 	if (min == max) return min;
-	if (max > min) {
-		printf("ERROR: Max cannot be over min.");
+	if (max < min) {
+		printf("ERROR: Max cannot be over min.\n");
 		return -1;
 	}
 	//Generate random number
@@ -58,12 +83,12 @@ User generateUser() {
 int generateQueue(Queue* queue, unsigned int users) {
 	//Perform early return
 	if (users == 0) {
-		printf("Number of users must be 1 or above.");
+		printf("Number of users must be 1 or above.\n");
 		return -1;
 	}
 	//Fill queue with random users and return 0
 	srand(time(NULL));
-	for (int i = 0; i < users; i++)
+	for (unsigned int i = 0; i < users; i++)
 		queue_enqueue(queue, generateUser());
 	return 0;
 }
