@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\User.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB603C34-C105-45CB-909D-7057DA131B84}|DSA_Assignment1_Take2\\DSA_Assignment1_Take2.vcxproj|solutionrelative:DSA_Assignment1_Take2\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,18 +57,14 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.c",
               "RelativeDocumentMoniker": "DSA_Assignment1_Take2\\Main.c",
-              "ToolTip": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.c*",
-              "RelativeToolTip": "DSA_Assignment1_Take2\\Main.c*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.c",
+              "RelativeToolTip": "DSA_Assignment1_Take2\\Main.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-12T22:11:49.443Z",
               "EditorCaption": ""
@@ -81,7 +77,7 @@
               "RelativeDocumentMoniker": "DSA_Assignment1_Take2\\Queue.c",
               "ToolTip": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Queue.c",
               "RelativeToolTip": "DSA_Assignment1_Take2\\Queue.c",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-12T22:14:59.769Z",
               "EditorCaption": ""
@@ -101,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "User.h",
               "DocumentMoniker": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\User.h",
               "RelativeDocumentMoniker": "DSA_Assignment1_Take2\\User.h",
@@ -109,30 +105,29 @@
               "RelativeToolTip": "DSA_Assignment1_Take2\\User.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-12T22:14:35.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T22:14:35.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Queue.h",
               "DocumentMoniker": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Queue.h",
               "RelativeDocumentMoniker": "DSA_Assignment1_Take2\\Queue.h",
               "ToolTip": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Queue.h",
               "RelativeToolTip": "DSA_Assignment1_Take2\\Queue.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-12T22:14:24.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Main.h",
               "DocumentMoniker": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.h",
               "RelativeDocumentMoniker": "DSA_Assignment1_Take2\\Main.h",
               "ToolTip": "C:\\Users\\rajde\\source\\repos\\DSA_Assignment1_Take2\\DSA_Assignment1_Take2\\Main.h",
               "RelativeToolTip": "DSA_Assignment1_Take2\\Main.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-12T22:14:02.103Z",
               "EditorCaption": ""

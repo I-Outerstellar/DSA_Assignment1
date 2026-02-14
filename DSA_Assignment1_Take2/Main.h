@@ -8,7 +8,7 @@
 /// <param name="min"></param>
 /// <param name="max"></param>
 /// <returns>A random number between min and max, -1 guaranteed if max is greater than min.</returns>
-int random(int min, int max);
+unsigned int random(unsigned int min, unsigned int max);
 
 /// <summary>
 /// Generates a randomized user.

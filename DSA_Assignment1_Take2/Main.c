@@ -11,7 +11,7 @@
 /// </summary>
 /// <param name="string"></param>
 /// <returns>The integer form of the string, or 0 if it fails.</returns>
-unsigned int parseInt(const char* string) {
+static unsigned int parseInt(const char* string) {
 	unsigned int buffer;
 	int success = sscanf_s(string, "%d", &buffer);
 	if (success) return buffer;
@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 
 //Main.h Functions
 
-int random(int min, int max) {
+unsigned int random(unsigned int min, unsigned int max) {
 	//Perform early returns
 	if (min == max) return min;
 	if (max < min) {
